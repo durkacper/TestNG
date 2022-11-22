@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Listeners"/>
+    </listeners>
+
+    <parameter name="URL" value="https://quclickacademy.com"/>
+
+    <test name="Test1">
+        <parameter name="URL" value="www.url1.com"/>
+        <classes>
+        <class name="Demo1.Test1"/>
+        </classes>
+    </test>
+
+    <test name="Test2">
+        <parameter name="URL" value="www.url2.com"/>
+        <classes>
+            <class name="Demo2.Test2"/>
+        </classes>
+    </test>
+
+    <test name="Test22_33">
+        <parameter name="URL" value="www.url223.com"/>
+        <parameter name="userName" value="TestUser"/>
+        <classes>
+            <class name="Demo2.Test22"/>
+            <class name="Demo3.Test3"/>
+        </classes>
+    </test>
+
+</suite>

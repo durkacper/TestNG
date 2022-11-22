@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <parameter name="URL" value="https://quclickacademy.com"/>
+
+    <test verbose="2" preserve-order="true" name="D:/Java/UDEMY_Selenium WebDriver Java/TestNG">
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Demo1.Test1"/>
+            <class name="Demo2.Test2"/>
+            <class name="Demo2.Test22"/>
+            <class name="Demo3.Test3"/>
+        </classes>
+    </test>
+</suite>

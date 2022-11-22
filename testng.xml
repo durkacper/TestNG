@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Java/UDEMY_Selenium WebDriver Java/TestNG">
+        <classes>
+            <class name="Demo1.Test1">
+                <methods>
+                    <include name="CdemoTest11"/>
+                    <include name="AdemoTest111"/>
+                </methods>
+            </class>
+            <class name="Demo2.Test22">
+                <methods>
+                    <include name="Test22"/>
+                </methods>
+            </class>
+            <class name="Demo3.Test3">
+                <methods>
+                    <include name="Test33"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
